@@ -74,7 +74,7 @@ const Page = () => {
           </MagicCard>
         ))}
       </div>
-      {isLoading && <p className="text-center mt-4">Loading more cats...</p>}
+      {isLoading && <UniqueLoaderJsx />}
       {!isLoading && hasMore && <div ref={loader} className="h-10" />}
       {!hasMore && <p className="text-center mt-4">No more cats to load</p>}
     </div>

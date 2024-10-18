@@ -40,10 +40,10 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/6 flex justify-end">
+      <a href="https://github.com/Dhruv-Sood/cat-gallery" target="_blank" className="w-1/6 flex justify-end">
         {/* github logo */}
         <FaGithub className="h-6 w-6 cursor-pointer" />
-      </div>
+      </a>
     </nav>
   )
 }

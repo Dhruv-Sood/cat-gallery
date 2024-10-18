@@ -31,13 +31,13 @@ const Navbar = () => {
             <HyperText text="Home" className="text-xl cursor-pointer" />
           </Link>
           <span className="text-gray-500 cursor-pointer">/</span>
-          <Link href="/cats" className="hover:text-gray-300 cursor-pointer">
+          <div  className="hover:text-gray-300 cursor-pointer">
             <HyperText text="Cat Gallery" className="text-xl cursor-pointer" />
-          </Link>
+          </div>
           <span className="text-gray-500 cursor-pointer">/</span>
-          <Link href="/about" className="hover:text-gray-300 cursor-pointer">
+          <div cclassName="hover:text-gray-300 cursor-pointer">
             <HyperText text="About" className="text-xl cursor-pointer" />
-          </Link>
+          </div>
         </div>
       </div>
       <div className="w-1/6 flex justify-end">

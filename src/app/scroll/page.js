@@ -2,6 +2,8 @@
 
 import { useEffect, useState, useCallback, useRef } from "react"
 import { MagicCard } from "@/components/ui/magic-card"
+import { UniqueLoaderJsx } from "@/components/unique-loader"
+
 
 const Page = () => {
   const [catsData, setCatsData] = useState([])

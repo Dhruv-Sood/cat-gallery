@@ -4,7 +4,7 @@ import { MagicCard } from "@/components/ui/magic-card"
 import { useEffect, useState } from "react"
 import { UniqueLoaderJsx } from "@/components/unique-loader"
 
-const page = () => {
+const Page = () => {
     const [catsData, setCatsData] = useState([])
     const [currentPage, setCurrentPage] = useState(0)
     const [isLoading, setIsLoading] = useState(false)
@@ -85,4 +85,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

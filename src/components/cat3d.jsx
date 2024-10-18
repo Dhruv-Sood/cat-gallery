@@ -1,6 +1,7 @@
 import Spline from '@splinetool/react-spline/next';
 import HyperText from './ui/hyper-text';
 import WordPullUp from './ui/word-pull-up';
+import Link from 'next/link';
 
 export default function Cat3d() {
     return (
@@ -18,12 +19,17 @@ export default function Cat3d() {
                 className="w-full h-full"
             />
             <div className="absolute bottom-10 left-0 right-0 flex justify-center space-x-4">
-                <button className="px-6 py-2 bg-white text-black rounded-full hover:bg-gray-200 transition-colors">
-                    Grid Layout
-                </button>
-                <button className="px-6 py-2 bg-white text-black rounded-full hover:bg-gray-200 transition-colors">
-                    Infinite Scroll
-                </button>
+                <Link href="/grid">
+                    <button className="px-6 py-2 bg-white text-black rounded-full hover:bg-gray-200 transition-colors">
+                        Grid Layout
+                    </button>
+                </Link>
+                <Link href="/scroll">
+                    <button className="px-6 py-2 bg-white text-black rounded-full hover:bg-gray-200 transition-colors">
+                        Infinite Scroll
+                    </button>
+                </Link>
+                
             </div>
         </main>
     );

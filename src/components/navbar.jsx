@@ -25,8 +25,8 @@ const Navbar = () => {
       <div className="w-1/6 flex justify-start">
         <Link href="/" className="cursor-pointer"><HyperText text="Cat Gallery" className="text-2xl font-bold cursor-pointer" /></Link>
       </div>
-      <div className="hidden md:flex md:w-2/3 justify-center">
-        <div className="flex items-center space-x-4">
+      <div className="w-2/3 flex justify-center">
+        <div className="hidden md:flex items-center space-x-4">
           <Link href="/" className="hover:text-gray-300 cursor-pointer">
             <HyperText text="Home" className="text-xl cursor-pointer" />
           </Link>
